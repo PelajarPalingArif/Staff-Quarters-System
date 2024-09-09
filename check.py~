@@ -1,0 +1,8 @@
+import os
+directory = r"C:\xampp\htdocs\PROJECT LI CLEAN\config"
+for name in os.listdir(directory):
+    file = open(directory + "\\" + name)
+    file_content = file.read()
+    print(file_content)
+    if("betterthanv66!!" in file_content):
+        print(name, "Confidental Information Found")

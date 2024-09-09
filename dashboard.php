@@ -277,13 +277,13 @@ if (!isset($_SESSION["empID"])) {
       ?>
       <!-- CHART -->
       <div class="row" style="height:100%;background-color:rgb(74,139,74);">
-        <div class="d-flex col-lg-8 mt-4  border border-primary justify-content-center">
+        <!-- <div class="d-flex col-lg-8 mt-4  border border-primary justify-content-center">
           <div class="chartContainer  ">
             <div class="charttitle  ">EMPLOYEE CHART BY RANK</div>
             <hr style="margin-bottom:30px;">
             <canvas id="myChart"></canvas>
           </div>
-        </div>
+        </div> -->
       </div>
 
 
