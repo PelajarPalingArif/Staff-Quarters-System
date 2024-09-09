@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+body {
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+}
+.export-button {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 8px 8px 8px;
+  border-radius: 4px;
+  border: black 2px solid;
+  background-color: rgb(20, 82, 20);
+
+  font-weight: bold;
+}
+.export-button:hover {
+  background-color: rgb(14, 75, 6);
+  color: rgb(18, 126, 18);
+}
+.export-button:hover img {
+  filter: invert(18%) sepia(75%) saturate(7491%) hue-rotate(127deg)
+    brightness(96%) contrast(86%);
+}
+.button-text {
+  padding-left: 5px;
+}
+.actionRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actRow {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.actionRow button {
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#ExportBuilding {
+  overflow-y: auto;
+}
+
+.modal-header {
+  background-color: green;
+  color: white;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.form-check {
+  margin-right: 20px;
+}
+
+.form-check-label {
+  font-weight: normal;
+}
+
+.form-check,
+.col {
+  margin-bottom: 10px;
+}
+
+#exportTo {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.modal-footer {
+  justify-content: flex-end;
+  padding: 15px;
+}
+.form-check {
+  margin-left: 20px;
+}
+
+.floorButton {
+  background-color: chocolate;
+}
+.floorButton:hover {
+  background-color: rgb(122, 62, 19);
+  outline: 2px solid black;
+}
+.actionRow .viewButton {
+  background-color: blue;
+}
+
+.actionRow .viewButton:hover {
+  background-color: darkblue;
+  outline: 2px solid rgb(0, 0, 65);
+}
+
+.actionRow .appButton {
+  background-color: rgb(94, 50, 0);
+}
+
+.actionRow .appButton:hover {
+  background-color: rgb(54, 29, 0);
+  outline: 2px solid rgb(0, 0, 0);
+}
+
+.actionRow .editButton {
+  background-color: green;
+}
+
+.actionRow .editButton:hover {
+  background-color: darkgreen;
+  outline: 2px solid rgb(0, 59, 0);
+}
+.actionRow .passButton {
+  background-color: darkgrey;
+}
+
+.actionRow .passButton:hover {
+  background-color: grey;
+  outline: 2px solid rgb(85, 85, 85);
+}
+.actionRow .dumpButton {
+  background-color: red;
+}
+
+.actionRow .dumpButton:hover {
+  background-color: darkred;
+  outline: 2px solid rgb(77, 0, 0);
+}
+
+.actionRow button img {
+  height: 24px;
+  width: 24px;
+}
+.actionRow .firstButton {
+  margin-left: 0px !important;
+}
+
+.colorpicker {
+  color: rgb(0, 48, 0);
+  color: #035300;
+  color: hsl(1, 1, 1);
+  color: rgb(26, 158, 26);
+}
+.scrollable-y {
+  overflow-y: scroll;
+}
+
+.scrollable-x {
+  overflow-x: scroll;
+}
+
+.btnArif-1:hover {
+  background-color: #3eb614;
+  border-color: #3eb614;
+}
+
+.Arifactive {
+  background-color: lightgreen;
+  color: black;
+  border: 1px solid black;
+}
+
+.Arifinactive {
+  color: white;
+}
+
+.Arifactive:hover {
+  color: black;
+}
+
+.Arifinactive:hover {
+  background-color: lightgreen;
+  color: black;
+  border-color: black !important;
+}
+
+.Arifactive:active {
+  color: black;
+}
+
+.Arifinactive:active {
+  color: black;
+}
+
+.Arifnav {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+.Arifnav p {
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
+}
+
+.square {
+  height: 70px;
+  width: 70px;
+}
+
+.profileCircle {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: #1c9104;
+}
+
+.profileCircle img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0;
+  outline-color: black;
+}
+
+.Arifinactive img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(289deg)
+    brightness(105%) contrast(101%);
+}
+
+.Arifinactive:hover img {
+  filter: invert(0%) sepia(85%) saturate(7435%) hue-rotate(99deg)
+    brightness(99%) contrast(91%);
+}
+
+#addButton:hover img {
+  filter: invert(13%) sepia(55%) saturate(6343%) hue-rotate(105deg)
+    brightness(100%) contrast(102%);
+}
+#addButton {
+  background-color: lightgreen;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 0px 10px 0px;
+}
+#addButton:hover {
+  background-color: rgb(108, 233, 108);
+}
+/* 
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .nav-link {
+      transition: none;
+    }
+  }
+  .nav-link:hover, .nav-link:focus {
+    color: var(--bs-nav-link-hover-color);
+  }
+  .nav-link:focus-visible {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  }
+  .nav-link.disabled, .nav-link:disabled {
+    color: var(--bs-nav-link-disabled-color);
+    pointer-events: none;
+    cursor: default;
+  } */
