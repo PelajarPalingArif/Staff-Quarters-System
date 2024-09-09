@@ -5,6 +5,7 @@
 <h1>Tools Used</h1>
 <ol>
   <li>Server: <h3>XAMPP</h3></li>
+  <li>Database: <h3>MySQL</h3></li>
   <li>Language: 
     <ul>
       <li><h3>PHP</h3></li>
